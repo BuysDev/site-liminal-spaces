@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --branco: #FFF;
-    --escuro: #333;
-    --verde1: #4A6B06;
-    --verde2: #BDFF38;
-    --verde3: #82b816;
-    --roxo1: #50006B;
-    --roxo2: #9A41B7;
+    --marrom-1: #422B06;
+    --branco: #fff;
+    --laranja: #C27E11;
+    --marrom-2: #42331A;
+    --marrom-3: #8F5D0D;
 }
 
 @font-face {
@@ -18,7 +16,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', '28Days';
+    font-family: 'Poppins';
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: '28Days';
 }
 
 header {
@@ -26,7 +29,7 @@ header {
     height: 300px;
     display: block;
     float: left;
-    background-color: var(--verde3);
+    background-color: var(--laranja);
 }
 
 article {
@@ -34,7 +37,7 @@ article {
     height: 800px;
     display: block;
     float: left;
-    background-color: var(--verde2);
+    background-color: var(--marrom-3);
 }
 
 aside {
@@ -42,7 +45,7 @@ aside {
     height: 800px;
     display: block;
     float: left;
-    background-color: var(--roxo2);
+    background-color: var(--marrom-1);
 }
 
 footer {
@@ -50,5 +53,5 @@ footer {
     height: 150px;
     display: block;
     float: left;
-    background-color: var(--roxo1);
+    background-color: var(--laranja);
 }
