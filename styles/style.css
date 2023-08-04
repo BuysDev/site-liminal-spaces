@@ -35,26 +35,61 @@ article {
     background-color: var(--marrom-3);
 }
 #conceitoimg {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px #00000080;
 }
 .conceito {
     width: 90%;
-    height: 50%;
+    height: 36%;
     margin-top: 5%;
+    display: flex;
+    flex-direction: row;
     margin-right: 5%;
     margin-left: 5%;
-    background-color: purple;
+    border-radius: 13px;
+    box-shadow: 1px 1px 7px 1px #00000080;
+    background-color: #a27122;
 }
-.extra{
-    width: 40%;
-    height: 30%;
-    background-color: red;
+.agrupamento-coluna {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.extra {
+    width: 43.5%;
+    height: 20%;
+    background-color: #a27122;
+    border-radius: 13px;
+    box-shadow: 1px 1px 7px 1px #00000080;
+    display: flex;
+    flex-direction: row;
     margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
     float: left;
+}
+
+.extra img {
+    width: 140px;
+    height: 140px;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px #00000080;
+}
+.extra p {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#extra1 {
+    margin-left: 5%;
+    margin-right: 1.5%;
+}
+#extra2 {
+    margin-right: 5%;
+    margin-left: 1.5%;
 }
 
 aside {
