@@ -8,6 +8,10 @@
     --marrom-3: #8F5D0D;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: '28Days';
     src: url('../font/28_days_later/28\ Days\ Later.ttf');
