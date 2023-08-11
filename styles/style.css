@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --marrom-1:#422B06;
+    --marrom-1: #422B06;
     --branco: #fff;
     --laranja: #C27E11;
     --marrom-2: #42331A;
     --marrom-3: #8F5D0D;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -22,6 +26,12 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: '28Days';
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, header h1 a {
+    font-family: '28Days', sans-serif;
 }
 
 header {
@@ -29,6 +39,11 @@ header {
     height: 300px;
     display: block;
     float: left;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     background-color: var(--laranja);
 }
 
@@ -39,6 +54,7 @@ article {
     float: left;
     background-color: var(--marrom-3);
 }
+
 #conceitoimg {
     width: 250px;
     height: 250px;
@@ -98,6 +114,26 @@ article {
     margin-left: 1.5%;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 aside {
     width: 30%;
     height: 550px;
@@ -112,4 +148,12 @@ footer {
     display: block;
     float: left;
     background-color: var(--laranja);
+}
+
+#logo {
+    font-size: 4.8rem;
+}
+
+nav ul li {
+    font-size: 1.4rem;
 }
