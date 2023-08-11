@@ -29,7 +29,7 @@ header {
 
 article {
     width: 70%;
-    height: 550px;
+    height: 550px auto;
     display: block;
     float: left;
     background-color: var(--marrom-3);
@@ -60,7 +60,7 @@ article {
 }
 .extra {
     width: 43.5%;
-    height: 160px;
+    height: 160px auto;
     background-color: #a27122;
     border-radius: 13px;
     box-shadow: 1px 1px 7px 1px #00000080;
