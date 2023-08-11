@@ -47,6 +47,10 @@ header {
     background-color: var(--laranja);
 }
 
+header a, header h1 {
+    color: white;
+}
+
 article {
     width: 70%;
     height: 550px auto;
@@ -74,6 +78,10 @@ article {
     border-radius: 13px;
     box-shadow: 1px 1px 7px 1px #00000080;
     background-color: #a27122;
+}
+
+.conceito h1 {
+    color: black;
 }
 
 .agrupamento-coluna {
@@ -121,10 +129,6 @@ ul {
     flex-direction: row;
     gap: 40px;
     list-style: none;
-}
-
-header {
-    color: white;
 }
 
 header h1 a {
