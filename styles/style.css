@@ -31,7 +31,7 @@ header {
 
 article {
     width: 70%;
-    height: 800px;
+    height: 550px;
     display: block;
     float: left;
     background-color: var(--marrom-3    );
@@ -39,21 +39,32 @@ article {
 
 aside {
     width: 30%;
-    height: 800px;
+    height: 550px auto;
     display: block;
     float: left;
     background-color: var(--marrom-1);
 }
-.imgs {
+
+
+
+#div2{
+ display: block;
+ width: 100%;
+ height: 450px;
+ margin-top: 13px;
+
+}
+.imgs{
+    padding-top: 20px;
+}
+.imgs img{
    display: block;
-   width: 160px;
-   height: 120px;
+   width: 180px;
+   height: 125px;
    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-    border: 2px solid black;
-
-
+   margin-left: 50;
+   padding-bottom: 10px;
+   border: 1px solid var(--marrom-1);
 
 }
 .busca{
@@ -66,4 +77,15 @@ footer {
     display: block;
     float: left;
     background-color: var(--laranja);
+}
+
+.bloco{
+
+    margin-left: 17px;
+}
+
+.bloco div1 {
+
+    margin-left: 50px;
+
 }
