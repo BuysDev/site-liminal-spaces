@@ -108,3 +108,13 @@ footer {
     float: left;
     background-color: var(--laranja);
 }
+footer a {
+    color: black;
+    background-color: #e09b2c;
+    border-radius: 7px;
+    padding: 7px;
+    box-shadow: 1px 1px 7px 1px #00000080;
+}
+footer h1 {
+    text-align: center;
+}
