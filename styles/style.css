@@ -2,7 +2,7 @@
 
 :root {
     --marrom-1: #422B06;
-    --branco: #fff;
+    --bege: #CCAF84;
     --laranja: #C27E11;
     --marrom-2: #42331A;
     --marrom-3: #8F5D0D;
@@ -27,7 +27,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family: '28Days';
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6, header h1 a {
@@ -142,16 +142,47 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    height: 550px;
+    display: block;
+    float: left;
+    background-color: var(--marrom-3);
 }
 
 aside {
     width: 30%;
     height: 550px;
+    height: 550px auto;
     display: block;
     float: left;
     background-color: var(--marrom-1);
 }
 
+
+
+#div2{
+ display: block;
+ width: 100%;
+ height: 450px;
+ margin-top: 13px;
+
+}
+.imgs{
+    padding-top: 20px;
+}
+.imgs img{
+   display: block;
+   width: 180px;
+   height: 125px;
+   float: left;
+   margin-left: 50;
+   padding-bottom: 10px;
+   border: 1px solid var(--marrom-1);
+
+}
+.busca{
+    text-align: center;
+    padding-top: 15px;
+}
 footer {
     width: 100%;
     height: 150px;
@@ -166,4 +197,12 @@ footer {
 
 nav ul li {
     font-size: 1.4rem;
+}
+
+.bloco {
+    margin-left: 17px;
+}
+
+.bloco h1 {
+    margin-left: 53px;
 }
