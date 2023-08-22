@@ -29,7 +29,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     color: black;
 }
-
+body {
+    background-color: var(--marrom-1);
+}
 header h1 a {
     font-family: '28Days', sans-serif;
 }
@@ -151,7 +153,7 @@ aside {
     height: 550px;
     display: block;
     float: left;
-    background-color: var(--marrom-1)
+    background-color: var(--marrom-1);
 }
 .asideimgs img{
    display: block;
