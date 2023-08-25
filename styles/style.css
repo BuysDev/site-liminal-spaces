@@ -157,20 +157,22 @@ aside {
 }
 .asideimgs img{
    display: block;
-   width: 140px;
+   width: 125px;
    float: left;
-   margin-bottom: 3%;
+   margin-top: 3%;
    border-radius: 12px;
+   box-shadow: 1px 1px 7px 1px #00000080;
 }
 #img1 {
-    margin-left: 9%;
+    margin-left: 17%;
 }
 #img2 {
     margin-left: 3%;
 }
 .busca{
-    text-align: center;
+    text-align: left;
     padding-top: 15px;
+    margin-left: 15px;
 }
 footer {
     width: 100%;
